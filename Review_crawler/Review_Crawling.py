@@ -204,16 +204,8 @@ def yogiyo_crawling(location, category):
 def start_yogiyo_crawling(gu, category):
     dong_list = []
     
-    if gu=='송파구':
-        dong_list = ['가락동']
-            #,'거여동','마천동','문정동','방이동','삼전동',
-             #        '석촌동','송파동','오금동','오륜동','잠실동','장지동','풍납동']
-    elif gu=='강남구':
-        dong_list = ['역삼동','개포동','청담동','삼성동','대치동','신사동','논현동',
-                     '압구정동','세곡동','자곡동','율현동','일원동','수서동','도곡동']
-    elif gu=='서초구':
-        dong_list = ['방배동','양재동','우면동','원지동','잠원동','반포동','서초동','내곡동','염곡동','신원동']
-    elif gu=='장안구':
+  
+    if gu=='장안구':
         dong_list = ['율전동']
 
     for dong in dong_list:
